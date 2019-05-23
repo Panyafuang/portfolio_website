@@ -1,0 +1,20 @@
+// Variables
+$website-width: 1280px;
+$main-color: #ffbc00;
+$progress-color: #FFAB00;
+$soft-color: #fadd8c;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: url('../img/showcase2.png');
+$overlay-color: rgba(24, 39, 51, 0.30);
+$cubid-overlay: cubic-bezier(0.2, 1, 0.3, 1);
+
+// Function change text color
+@function set-text-color($color){
+    @if(lightness($color) > 50){
+        @return #000;
+    }@else{
+        @return #fff;
+    }
+}
