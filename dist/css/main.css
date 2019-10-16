@@ -517,6 +517,8 @@ img {
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid #ccc; }
+  #contact-a .text-fields div {
+    grid-column: 1 /span 2; }
 
 #contact-a button[type="submit"] {
   width: 50%; }

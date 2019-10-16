@@ -466,6 +466,9 @@ img{
                 border-radius: 5px;
                 border: 1px solid $medium-color;
             }
+            div{
+                grid-column: 1 /span 2;
+            }
         }
         //  button
         button[type="submit"]{
