@@ -125,6 +125,7 @@ input[class^='btn-']:hover {
       left: 0;
       width: 100%;
       height: auto;
+      object-fit: cover;
       line-height: 0; }
   .item-image::before {
     content: '';
@@ -193,6 +194,8 @@ input[class^='btn-']:hover {
     animation: photoshop 6s ease; }
   .animation-bar-1 span.it-support {
     animation: it-support 6s ease; }
+  .animation-bar-1 span.php {
+    animation: php 6s ease; }
 
 .animation-bar-1 span::after {
   position: absolute;
@@ -217,13 +220,19 @@ input[class^='btn-']:hover {
   0% {
     width: 0%; }
   100% {
-    width: 70%; } }
+    width: 80%; } }
+
+@keyframes php {
+  0% {
+    width: 0%; }
+  100% {
+    width: 60%; } }
 
 @keyframes nodejs {
   0% {
     width: 0%; }
   100% {
-    width: 50%; } }
+    width: 70%; } }
 
 @keyframes photoshop {
   0% {
