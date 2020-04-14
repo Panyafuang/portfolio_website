@@ -125,7 +125,6 @@ input[class^='btn-']:hover {
       left: 0;
       width: 100%;
       height: auto;
-      object-fit: cover;
       line-height: 0; }
   .item-image::before {
     content: '';
@@ -194,8 +193,6 @@ input[class^='btn-']:hover {
     animation: photoshop 6s ease; }
   .animation-bar-1 span.it-support {
     animation: it-support 6s ease; }
-  .animation-bar-1 span.php {
-    animation: php 6s ease; }
 
 .animation-bar-1 span::after {
   position: absolute;
@@ -220,19 +217,13 @@ input[class^='btn-']:hover {
   0% {
     width: 0%; }
   100% {
-    width: 80%; } }
-
-@keyframes php {
-  0% {
-    width: 0%; }
-  100% {
-    width: 60%; } }
+    width: 70%; } }
 
 @keyframes nodejs {
   0% {
     width: 0%; }
   100% {
-    width: 70%; } }
+    width: 50%; } }
 
 @keyframes photoshop {
   0% {
@@ -426,9 +417,6 @@ img {
     grid-area: awd-one; }
   #about-a .about-info .awd-2 {
     grid-area: awd-two; }
-    #about-a .about-info .awd-2 img {
-      border-radius: 3px;
-      box-shadow: 2px 2px 2px #ccc; }
   #about-a .about-info .awd-3 {
     grid-area: awd-three; }
   #about-a .about-info .awd-1 .fas,
